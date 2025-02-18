@@ -1,0 +1,19 @@
+GenAI Architecting, I had gone deep into the TOGAF architecture and the diagrams that Rola gave, I deeply understood the process, and I tried my best to fill in all the sections under the Wiki document for GenAI architecting.
+
+For Sentence Constructor, I tried DeepSeek R1, ChatGPT 4o, Gemini 2.0 flash, Claude Sonet, Mistal AI, Perplexity AI and IBM Granite. Also made use of the prompt document of Damien.
+
+GenAI Architecting, Since I tried to answer or fill in the Wiki document sections I had a deeper understanding of my knowledge in Conceptual and Logical diagrams but have yet to get my hands dirty with Physical diagrams.
+
+Sentence Constructor, I used the same prompt document for all the AI-powered assistants, DeepSeek R1 was free to use, ChatGPT 4o had limitations of 10 prompts, Gemini 2.0 flash was free to use , Claude Sonet had 10 prompts, Mistal AI was free until I tried, Perplexity AI was also free until I tried and IBM Granite had limitation of 25 prompts.
+
+GenAI architecting, Understood the Architecting framework - TOGAF
+
+Sentance Constructor, I found DeepSeek R1 was good but the responses was short with out examples.
+ChatGPT 4o was okish something we could relay on but its paid.
+Gemini 2.0 flash was not good at all.
+Claude Sonet was good but its paid.
+Mistral AI was good and its free.
+Perplexity AI was good and its free.
+IBM Granite was very good.
+
+Overall I found for an AI agent to be an Spanish sentence assistant IBM Granite, Mistral , Perplexity and DeepSeek and GTP4o to be good. i would give rating the order I have mentioned.

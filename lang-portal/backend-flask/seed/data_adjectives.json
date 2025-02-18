@@ -1,0 +1,52 @@
+[
+  {
+    "spanish": "grande",
+    "english": "big",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "pequeño",
+    "english": "small",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "feliz",
+    "english": "happy",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "triste",
+    "english": "sad",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "rápido",
+    "english": "fast",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "lento",
+    "english": "slow",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "alto",
+    "english": "tall",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "bajo",
+    "english": "short",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "nuevo",
+    "english": "new",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "viejo",
+    "english": "old",
+    "parts": "adjective"
+  }
+]

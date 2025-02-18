@@ -1,0 +1,52 @@
+[
+  {
+    "spanish": "hablar",
+    "english": "to speak",
+    "parts": "verb"
+  },
+  {
+    "spanish": "comer",
+    "english": "to eat",
+    "parts": "verb"
+  },
+  {
+    "spanish": "vivir",
+    "english": "to live",
+    "parts": "verb"
+  },
+  {
+    "spanish": "correr",
+    "english": "to run",
+    "parts": "verb"
+  },
+  {
+    "spanish": "leer",
+    "english": "to read",
+    "parts": "verb"
+  },
+  {
+    "spanish": "escribir",
+    "english": "to write",
+    "parts": "verb"
+  },
+  {
+    "spanish": "escuchar",
+    "english": "to listen",
+    "parts": "verb"
+  },
+  {
+    "spanish": "aprender",
+    "english": "to learn",
+    "parts": "verb"
+  },
+  {
+    "spanish": "enseñar",
+    "english": "to teach",
+    "parts": "verb"
+  },
+  {
+    "spanish": "bailar",
+    "english": "to dance",
+    "parts": "verb"
+  }
+]
