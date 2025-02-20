@@ -200,3 +200,5 @@ The purpose of this page is to make configurations to the study portal.
 #### Needed API Endpoints
 - POST /api/reset_history
 - POST /api/full_reset
+- POST /api/study_sessions/:id/words/:word_id/review
+    - Requried params: correct

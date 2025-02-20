@@ -48,5 +48,105 @@
     "spanish": "bailar",
     "english": "to dance",
     "parts": "verb"
+  },
+  {
+    "spanish": "cantar",
+    "english": "to sing",
+    "parts": "verb"
+  },
+  {
+    "spanish": "jugar",
+    "english": "to play",
+    "parts": "verb"
+  },
+  {
+    "spanish": "trabajar",
+    "english": "to work",
+    "parts": "verb"
+  },
+  {
+    "spanish": "viajar",
+    "english": "to travel",
+    "parts": "verb"
+  },
+  {
+    "spanish": "cocinar",
+    "english": "to cook",
+    "parts": "verb"
+  },
+  {
+    "spanish": "beber",
+    "english": "to drink",
+    "parts": "verb"
+  },
+  {
+    "spanish": "dormir",
+    "english": "to sleep",
+    "parts": "verb"
+  },
+  {
+    "spanish": "nadar",
+    "english": "to swim",
+    "parts": "verb"
+  },
+  {
+    "spanish": "comprar",
+    "english": "to buy",
+    "parts": "verb"
+  },
+  {
+    "spanish": "vender",
+    "english": "to sell",
+    "parts": "verb"
+  },
+  {
+    "spanish": "abrir",
+    "english": "to open",
+    "parts": "verb"
+  },
+  {
+    "spanish": "cerrar",
+    "english": "to close",
+    "parts": "verb"
+  },
+  {
+    "spanish": "pensar",
+    "english": "to think",
+    "parts": "verb"
+  },
+  {
+    "spanish": "decir",
+    "english": "to say",
+    "parts": "verb"
+  },
+  {
+    "spanish": "hacer",
+    "english": "to do",
+    "parts": "verb"
+  },
+  {
+    "spanish": "tener",
+    "english": "to have",
+    "parts": "verb"
+  },
+  {
+    "spanish": "ver",
+    "english": "to see",
+    "parts": "verb"
+  },
+  {
+    "spanish": "venir",
+    "english": "to come",
+    "parts": "verb"
+  },
+  {
+    "spanish": "ir",
+    "english": "to go",
+    "parts": "verb"
+  },
+  {
+    "spanish": "dar",
+    "english": "to give",
+    "parts": "verb"
   }
 ]

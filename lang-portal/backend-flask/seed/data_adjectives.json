@@ -48,5 +48,101 @@
     "spanish": "viejo",
     "english": "old",
     "parts": "adjective"
+  },
+
+  {
+    "spanish": "grande",
+    "english": "big",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "pequeño",
+    "english": "small",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "feliz",
+    "english": "happy",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "triste",
+    "english": "sad",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "rápido",
+    "english": "fast",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "lento",
+    "english": "slow",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "alto",
+    "english": "tall",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "nuevo",
+    "english": "new",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "viejo",
+    "english": "old",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "fuerte",
+    "english": "strong",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "débil",
+    "english": "weak",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "caliente",
+    "english": "hot",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "frío",
+    "english": "cold",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "claro",
+    "english": "clear",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "oscuro",
+    "english": "dark",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "duro",
+    "english": "hard",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "blando",
+    "english": "soft",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "caro",
+    "english": "expensive",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "barato",
+    "english": "cheap",
+    "parts": "adjective"
   }
 ]

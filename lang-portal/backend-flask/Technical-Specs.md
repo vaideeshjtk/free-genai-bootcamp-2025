@@ -213,3 +213,412 @@ Dashboard Page:
 - POST /api/full_reset
 - POST /api/study_sessions/:id/words/:word_id/review
     - Requried params: correct
+
+### JSON Responses
+
+#### GET /api/dashboard/last_study_session
+```sh
+{
+  "id": 1,
+  "activity_name": "Flashcards",
+  "last_used": "2023-10-01T12:34:56Z",
+  "correct_count": 5,
+  "wrong_count": 2,
+  "group_id": 123,
+  "group_name": "Core Verbs"
+}
+```
+
+#### GET /api/dashboard/study_progress
+``` sh
+{
+  "total_words": 1000,
+  "words_studied": 200,
+}
+
+```
+
+#### GET /api/dashboard/quick-stats
+``` sh
+{
+  "total_sessions": 20,
+  "words_studied": 200,
+  "mastered_words": 50,
+  "success_rate": 0.75,
+  "active_groups": 5,
+  "current_streak": 10
+}
+```
+
+#### GET /api/study_actvities
+``` sh
+{
+  "activities": [
+    {
+      "id": 1,
+      "name": "Flashcards",
+      "thumbnail_url": "https://example.com/flashcards/thumbnail.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Quizzes",
+      "thumbnail_url": "https://example.com/quizzes/thumbnail.jpg"
+    }
+  ],
+  "total_pages": 1,
+  "current_page": 1
+}
+```
+
+#### GET /api/study_actvities/:id
+
+``` sh
+{
+  "id": 1,
+  "name": "Flashcards",
+  "description": "A fun way to learn new words using flashcards.",
+  "thumbnail_url": "https://example.com/flashcards/thumbnail.jpg",
+  "launch_url": "https://example.com/flashcards",
+  "total_pages": 1,
+  "current_page": 1
+}
+```
+
+#### GET /api/study_actvities/:id/study_session
+
+``` sh
+{
+  "study_sessions": [
+    {
+      "id": 1,
+      "activity_name": "Flashcards",
+      "group_name": "Core Verbs",
+      "start_time": "2023-10-01T12:34:56Z",
+      "end_time": "2023-10-01T12:45:00Z",
+      "review_items_count": 10
+    }
+  ],
+  "total_pages": 1,
+  "current_page": 1
+}
+```
+
+#### GET /api/study_actvities/:id/study_session
+
+``` sh
+{
+  "study_sessions": [
+    {
+      "id": 1,
+      "activity_name": "Flashcards",
+      "group_name": "Core Verbs",
+      "start_time": "2023-10-01T12:34:56Z",
+      "end_time": "2023-10-01T12:45:00Z",
+      "review_items_count": 10
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+
+}
+```
+
+#### POST /api/study_activity
+```sh
+{
+  "message": "Study activity created successfully",
+  "activity_id": 1
+  "group_id": 1
+}
+```
+
+#### GET /api/words
+```sh
+{
+  "words": [
+    {
+      "id": 1,
+      "spanish": "hablar",
+      "english": "to speak",
+      "correct_count": 10,
+      "wrong_count": 2
+    },
+    {
+      "id": 2,
+      "spanish": "comer",
+      "english": "to eat",
+      "correct_count": 8,
+      "wrong_count": 3
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+
+#### GET /api/words/:id
+
+```sh
+{
+  "id": 1,
+  "spanish": "hablar",
+  "english": "to speak",
+  "correct_count": 10,
+  "wrong_count": 2,
+  "groups": [
+    {
+      "id": 1,
+      "name": "Core Verbs"
+    },
+    {
+      "id": 2,
+      "name": "Common Verbs"
+    }
+  ]
+}
+```
+
+#### GET /api/groups
+
+```sh
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Core Verbs",
+      "words_count": 50
+    },
+    {
+      "id": 2,
+      "name": "Core Adjectives",
+      "words_count": 30
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+#### GET /api/groups/:id
+
+```sh
+{
+  "id": 1,
+  "name": "Core Verbs",
+  "words_count": 50,
+  "words": [
+    {
+      "id": 1,
+      "spanish": "hablar",
+      "english": "to speak"
+    },
+    {
+      "id": 2,
+      "spanish": "comer",
+      "english": "to eat"
+    }
+  ],
+  "study_sessions": [
+    {
+      "id": 1,
+      "activity_name": "Flashcards",
+      "start_time": "2023-10-01T12:34:56Z",
+      "end_time": "2023-10-01T12:45:00Z",
+      "review_items_count": 10
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+
+#### GET /api/groups/:id/words
+
+
+```sh
+{
+  "words": [
+    {
+      "id": 1,
+      "spanish": "hablar",
+      "english": "to speak"
+    },
+    {
+      "id": 2,
+      "spanish": "comer",
+      "english": "to eat"
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+```
+#### GET /api/groups/:id/study_sessions
+
+``` sh
+{
+  "study_sessions": [
+    {
+      "id": 1,
+      "activity_name": "Flashcards",
+      "group_name": "Core Verbs",
+      "start_time": "2023-10-01T12:34:56Z",
+      "end_time": "2023-10-01T12:45:00Z",
+      "review_items_count": 10
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+
+#### GET /api/groups/:id/study_sessions
+
+``` sh
+{
+  "study_sessions": [
+    {
+      "id": 1,
+      "activity_name": "Flashcards",
+      "group_name": "Core Verbs",
+      "start_time": "2023-10-01T12:34:56Z",
+      "end_time": "2023-10-01T12:45:00Z",
+      "review_items_count": 10
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+#### GET /api/study_sessions
+
+``` sh
+{
+  "study_sessions": [
+    {
+      "id": 1,
+      "activity_name": "Flashcards",
+      "group_name": "Core Verbs",
+      "start_time": "2023-10-01T12:34:56Z",
+      "end_time": "2023-10-01T12:45:00Z",
+      "review_items_count": 10
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+
+#### GET /api/study_sessions/:id
+
+``` sh
+{
+  "id": 1,
+  "activity_name": "Flashcards",
+  "group_name": "Core Verbs",
+  "start_time": "2023-10-01T12:34:56Z",
+  "end_time": "2023-10-01T12:45:00Z",
+  "review_items_count": 10
+}
+```
+#### GET /api/study_sessions/:id/words
+
+``` sh
+{
+  "words": [
+    {
+      "id": 1,
+      "spanish": "hablar",
+      "english": "to speak",
+      "correct": true,
+      "created_at": "2023-10-01T12:35:00Z"
+    },
+    {
+      "id": 2,
+      "spanish": "comer",
+      "english": "to eat",
+      "correct": false,
+      "created_at": "2023-10-01T12:36:00Z"
+    }
+  ],
+  "pagination":
+    { 
+        "total_pages": 1,
+        "current_page": 1
+    }
+}
+```
+#### POST /api/reset_history
+
+``` sh
+{
+    "success": "True"
+    "message": "History reset successfully"
+}
+```
+#### POST /api/full_reset
+
+``` sh
+{
+    "success": "True"
+    "message": "Full reset completed successfully"
+}
+```
+
+#### POST /api/study_sessions/:id/words/:word_id/review
+
+##### Request Payload
+``` sh
+{
+    "correct": true
+}
+```
+##### Response Payload
+``` sh
+{
+    "success": "True"
+    "message": "Review recorded successfully",
+    "created_at": "2023-10-01T12:36:00Z"
+    "study_session_id": 1,
+    "word_id": 1,
+    "correct": true
+}
+```
+
+### Initilize Database
+We need to initilize a SQLlite3 DB, the migrate.py task will do that and create an words.db file.
+
+### Seed Data 
+
+There is folder called Seed and the files are there and they are in JSON. 
+The files need to be loaded into DB.
+That is JSON into target data into Data base
+``` JSON
+  {
+    "spanish": "grande",
+    "english": "big",
+    "parts": "adjective"
+  },
+```
