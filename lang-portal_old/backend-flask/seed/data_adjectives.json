@@ -1,0 +1,102 @@
+[
+  {
+    "spanish": "grande",
+    "english": "big",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "pequeño",
+    "english": "small",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "feliz",
+    "english": "happy",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "triste",
+    "english": "sad",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "rápido",
+    "english": "fast",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "lento",
+    "english": "slow",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "alto",
+    "english": "tall",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "bajo",
+    "english": "short",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "nuevo",
+    "english": "new",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "viejo",
+    "english": "old",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "bonito",
+    "english": "pretty",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "feo",
+    "english": "ugly",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "fuerte",
+    "english": "strong",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "débil",
+    "english": "weak",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "inteligente",
+    "english": "intelligent",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "tonto",
+    "english": "silly",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "rico",
+    "english": "rich",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "pobre",
+    "english": "poor",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "caliente",
+    "english": "hot",
+    "parts": "adjective"
+  },
+  {
+    "spanish": "frío",
+    "english": "cold",
+    "parts": "adjective"
+  }
+]

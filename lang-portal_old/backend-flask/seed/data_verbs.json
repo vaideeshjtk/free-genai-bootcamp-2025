@@ -1,0 +1,102 @@
+[
+  {
+    "spanish": "hablar",
+    "english": "to speak",
+    "parts": "verb"
+  },
+  {
+    "spanish": "comer",
+    "english": "to eat",
+    "parts": "verb"
+  },
+  {
+    "spanish": "vivir",
+    "english": "to live",
+    "parts": "verb"
+  },
+  {
+    "spanish": "correr",
+    "english": "to run",
+    "parts": "verb"
+  },
+  {
+    "spanish": "leer",
+    "english": "to read",
+    "parts": "verb"
+  },
+  {
+    "spanish": "escribir",
+    "english": "to write",
+    "parts": "verb"
+  },
+  {
+    "spanish": "escuchar",
+    "english": "to listen",
+    "parts": "verb"
+  },
+  {
+    "spanish": "aprender",
+    "english": "to learn",
+    "parts": "verb"
+  },
+  {
+    "spanish": "enseñar",
+    "english": "to teach",
+    "parts": "verb"
+  },
+  {
+    "spanish": "bailar",
+    "english": "to dance",
+    "parts": "verb"
+  },
+  {
+    "spanish": "cantar",
+    "english": "to sing",
+    "parts": "verb"
+  },
+  {
+    "spanish": "trabajar",
+    "english": "to work",
+    "parts": "verb"
+  },
+  {
+    "spanish": "estudiar",
+    "english": "to study",
+    "parts": "verb"
+  },
+  {
+    "spanish": "viajar",
+    "english": "to travel",
+    "parts": "verb"
+  },
+  {
+    "spanish": "cocinar",
+    "english": "to cook",
+    "parts": "verb"
+  },
+  {
+    "spanish": "limpiar",
+    "english": "to clean",
+    "parts": "verb"
+  },
+  {
+    "spanish": "comprar",
+    "english": "to buy",
+    "parts": "verb"
+  },
+  {
+    "spanish": "vender",
+    "english": "to sell",
+    "parts": "verb"
+  },
+  {
+    "spanish": "beber",
+    "english": "to drink",
+    "parts": "verb"
+  },
+  {
+    "spanish": "dormir",
+    "english": "to sleep",
+    "parts": "verb"
+  }
+]
