@@ -30,6 +30,39 @@ We have the following tables:
 - word_review_items
 - words
 
+## Backend Structure:
+language-portal/
+├── backend-flask/
+  ├── app.py
+  ├── migrate.py
+  ├── tasks.py
+  ├── Readme.md
+  ├── Requierments.txt
+  ├── .gitignore
+  ├── Technical-specs.md
+  ├── lib/
+  |   └── db.py
+  ├── seed/
+  │   └── data_adjectives.json
+  |   └── data_verbs.json
+  |   └── study_actvities.json
+  ├── routes/
+  │   └── dashboard.py  
+  |   └── groups.py  
+  |   └── study_activities.py  
+  |   └── study_sessions.py  
+  |   └── words.py
+  ├── SQL/Setup
+  │     └── create_table_groups.sql            
+            create_table_word_groups.sql       
+            create_table_words.sql
+            create_table_study_activities.sql  
+            create_table_word_review_items.sql  
+            create_word_reviews.sql
+            create_table_study_sessions.sql    
+            create_table_word_reviews.sql       
+            insert_study_activities.sql 
+
 ### Tables and Their Purpose
 #### study_activities
 Purpose: Stores information about different study activities (e.g., flashcards, quizzes).

@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /mnt/c/Users/thiru/Downloads/Vaideesh/Courses/GenAI/free-genai-bootcamp-2025-main/free-genai-bootcamp-2025-main/venv/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
