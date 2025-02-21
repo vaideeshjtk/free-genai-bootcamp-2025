@@ -3,7 +3,7 @@ from flask_cors import cross_origin
 from datetime import datetime, timedelta
 
 def load(app):
-    @app.route('/dashboard/recent-session', methods=['GET'])
+    @app.route('/api/dashboard/recent-session', methods=['GET'])
     @cross_origin()
     def get_recent_session():
         try:
@@ -43,7 +43,7 @@ def load(app):
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
-    @app.route('/dashboard/stats', methods=['GET'])
+    @app.route('/api/dashboard/quick-stats', methods=['GET'])
     @cross_origin()
     def get_study_stats():
         try:

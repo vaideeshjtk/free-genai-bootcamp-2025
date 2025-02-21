@@ -224,9 +224,9 @@ groups (id, name, words_count)
 ## API Endpoints
 
 Dashboard Page:
-- GET /dashboard/last_study_session 
-- GET /dashboard/study_progress
-- GET /dashboard/quick-stats
+- GET /api/dashboard/last_study_session 
+- GET /api/dashboard/study_progress
+- GET /api/dashboard/quick-stats
 - GET /api/study_actvities/:id
 - GET /api/study_actvities/:id/study_session
 - GET /api/study_actvities

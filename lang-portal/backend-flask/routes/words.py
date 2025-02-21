@@ -4,7 +4,7 @@ import json
 
 def load(app):
   # Endpoint: GET /words with pagination (50 words per page)
-  @app.route('/words', methods=['GET'])
+  @app.route('/api/words', methods=['GET'])
   @cross_origin()
   def get_words():
     try:
@@ -18,13 +18,13 @@ def load(app):
       offset = (page - 1) * words_per_page
 
       # Get sorting parameters from the query string
-      sort_by = request.args.get('sort_by', 'kanji')  # Default to sorting by 'kanji'
+      sort_by = request.args.get('sort_by', 'spanish')  # Default to sorting by 'kanji'
       order = request.args.get('order', 'asc')  # Default to ascending order
 
       # Validate sort_by and order
-      valid_columns = ['kanji', 'romaji', 'english', 'correct_count', 'wrong_count']
+      valid_columns = ['spanish', 'english', 'correct_count', 'wrong_count']
       if sort_by not in valid_columns:
-        sort_by = 'kanji'
+        sort_by = 'spanish'
       if order not in ['asc', 'desc']:
         order = 'asc'
 
