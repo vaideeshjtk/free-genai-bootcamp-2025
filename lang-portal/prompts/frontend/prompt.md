@@ -59,7 +59,7 @@ see where they are. Examples of breadcrumbs
 Dashboard
 Study Activities > Adventure MUD
 Study Activities > Typing Tutor
-Words > 始める
+Words > comenzar
 Word Groups > Core Verbs
 
 ## Pages
